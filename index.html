@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="antialiased bg-zinc-50 text-zinc-900">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Metabolismo</title>
+  </head>
+  <body class="w-full h-screen items-center justify-center flex">
+    <div class="border rounded-md mx-auto container p-10">
+      <div class="text-center font-semibold text-2xl pb-10">
+        <h1>Calculadora de Metabolismo</h1>
+      </div>
+
+      <div>
+        <h1 class="font-medium pb-5">
+          <span class="text-blue-700 font-semibold">1º ETAPA</span> - Como
+          determinar a taxa de metabolismo basal
+          <span class="text-blue-700 font-semibold">(TMB)</span>
+        </h1>
+
+        <div class="space-y-8">
+          <div>
+            <label for="weight" class="gap-2 flex items-center">
+              <span class="text-blue-700 font-semibold text-2xl">Peso:</span>
+              <input
+                id="weight"
+                type="number"
+                class="bg-transparent border rounded-md p-1"
+                placeholder="Informe seu peso"
+              />
+
+              <span class="text-zinc-400">(em quilos)</span>
+            </label>
+          </div>
+          <div>
+            <label for="weight" class="gap-2 flex items-center">
+              <span class="text-blue-700 font-semibold text-2xl">Altura:</span>
+              <input
+                id="weight"
+                type="number"
+                class="bg-transparent border rounded-md p-1"
+                placeholder="Informe sua altura"
+              />
+
+              <span class="text-zinc-400">(em centímetros)</span>
+            </label>
+          </div>
+          <div>
+            <label for="weight" class="gap-2 flex">
+              <span class="text-blue-700 font-semibold text-2xl">Idade:</span>
+              <input
+                id="weight"
+                type="number"
+                class="bg-transparent border rounded-md p-1"
+                placeholder="Informe sua idade"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
